@@ -6,6 +6,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;   
 }
 
 .main {
@@ -31,16 +32,31 @@ body{
     width:65vw;
 }
 
-.first,
+h4{
+    margin-left: 30px;
+}
+
 .second,
 .third {
     height:33vh;
 }
 
 .first{
+    height:25%;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    margin-left: 30px;
     margin-bottom: 30px;
 }
+
+.second{
+    background-color: #ffff;
+}
+
+.form-main-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width:88%;
+}
+
