@@ -36,7 +36,6 @@ h4{
     margin-left: 30px;
 }
 
-.second,
 .third {
     height:33vh;
 }
@@ -51,12 +50,36 @@ h4{
 
 .second{
     background-color: #ffff;
+    height:40vh;
 }
 
 .form-main-div{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    width:88%;
+    justify-content: space-between;
+    width:55%;
+    margin-left:30px;
 }
 
+.form-div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+input{
+    width:200px;
+    height:22px;
+    border: 1px solid #E5E7EB;
+    border-radius:5px;
+}
+
+input:focus{
+    outline-style: none;
+    border:1px solid blue;
+}
+
+
+input:invalid{
+    border:1px solid red;
+}
