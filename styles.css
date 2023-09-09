@@ -22,7 +22,9 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     color:white;
-    font-family: Norse-Bold, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .right{
@@ -49,13 +51,14 @@ h4{
     background-color: #ffff;
     height:35vh;
     padding-top: 1px;
+    box-shadow: 3px 3px #E5E7EB;
 }
 
 .form-main-div{
     display:flex;
     flex-direction: row;
     margin:30px;
-    width:80%;
+    width:60%;
     justify-content: space-between;
 }
 
@@ -109,6 +112,7 @@ button{
     color:white;
     background-color: #596D48;
     border: 1px solid #596D48;
+    box-shadow: 3px 3px #E5E7EB;
 }
 
 .hyperlink{
@@ -121,8 +125,44 @@ button{
     font-size: 13px;
 }
 
-a{
+.login{
     text-decoration: none;
     color:#596D48;
     font-weight: bold;
+}
+
+.a-footer{
+    color:white;
+}
+
+.p-footer{
+    font-size: 13px;
+}
+
+.forImage{
+    height:30vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.forFooter{
+    height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width:100%;
+}
+
+.forLogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    background-color: rgb(0, 0, 0, 0.5)
+}
+
+h1{
+    font-family: Norse-Bold, sans-serif;
+    font-size: 55px;
 }
